@@ -1,0 +1,307 @@
+# depslib dependency file v1.0
+1668435648 source:i:\workplace\mehedi hasan\c\pos\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	"tabulate/table.hpp"
+	"header/mainMenu.h"
+	"header/product.h"
+
+1668430125 i:\workplace\mehedi hasan\c\pos\tabulate\table.hpp
+	"table_internal.hpp"
+	<string_view>
+	<variant>
+	"string_view_lite.hpp"
+	"variant_lite.hpp"
+	<utility>
+
+1665847294 i:\workplace\mehedi hasan\c\pos\tabulate\table_internal.hpp
+	<algorithm>
+	<iostream>
+	<string>
+	"column.hpp"
+	"font_style.hpp"
+	"printer.hpp"
+	"row.hpp"
+	"termcolor.hpp"
+	<vector>
+
+1665847757 i:\workplace\mehedi hasan\c\pos\tabulate\column.hpp
+	<algorithm>
+	<functional>
+	<iostream>
+	<memory>
+	<optional>
+	"optional_lite.hpp"
+	<string>
+	"cell.hpp"
+	"column_format.hpp"
+	<vector>
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\optional_lite.hpp
+	<utility>
+	<cstddef>
+	<optional>
+	<cassert>
+	<utility>
+	<stdexcept>
+	<functional>
+	<initializer_list>
+	<type_traits>
+	<tr1/type_traits>
+
+1665847736 i:\workplace\mehedi hasan\c\pos\tabulate\cell.hpp
+	<iostream>
+	<memory>
+	<string>
+	"format.hpp"
+	"utf8.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665847693 i:\workplace\mehedi hasan\c\pos\tabulate\format.hpp
+	<algorithm>
+	<cctype>
+	<cstddef>
+	<sstream>
+	<string>
+	"color.hpp"
+	"font_align.hpp"
+	"font_style.hpp"
+	"utf8.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665847645 i:\workplace\mehedi hasan\c\pos\tabulate\color.hpp
+	"termcolor.hpp"
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<cstdio>
+	<iostream>
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\font_align.hpp
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\font_style.hpp
+
+1665847711 i:\workplace\mehedi hasan\c\pos\tabulate\utf8.hpp
+	<algorithm>
+	<cstdint>
+	<string>
+	<clocale>
+	<locale>
+	<cstdlib>
+	"termcolor.hpp"
+	<wchar.h>
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\column_format.hpp
+
+1665847784 i:\workplace\mehedi hasan\c\pos\tabulate\printer.hpp
+	"color.hpp"
+	"font_style.hpp"
+	<utility>
+	<vector>
+
+1665847840 i:\workplace\mehedi hasan\c\pos\tabulate\row.hpp
+	<iostream>
+	<memory>
+	<string>
+	"cell.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\string_view_lite.hpp
+	<nonstd/string_view.tweak.hpp>
+	<cstddef>
+	<string_view>
+	<algorithm>
+	<cassert>
+	<iterator>
+	<limits>
+	<string>
+	<ostream>
+	<stdexcept>
+	<type_traits>
+	<functional>
+
+1665533556 i:\workplace\mehedi hasan\c\pos\tabulate\variant_lite.hpp
+	<utility>
+	<cstddef>
+	<functional>
+	<variant>
+	<cstddef>
+	<limits>
+	<new>
+	<utility>
+	<cassert>
+	<stdexcept>
+	<functional>
+	<initializer_list>
+	<type_traits>
+	<tr1/type_traits>
+
+1668430965 i:\workplace\mehedi hasan\c\pos\header\product.h
+
+1668435775 i:\workplace\mehedi hasan\c\pos\header\mainmenu.h
+	<iostream>
+	<stdlib.h>
+	"../tabulate/table.hpp"
+
+1668435648 source:i:\workplace\mehedi hasan\software_development_1\pos\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	"tabulate/table.hpp"
+	"header/mainMenu.h"
+	"header/product.h"
+
+1668430125 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\table.hpp
+	"table_internal.hpp"
+	<string_view>
+	<variant>
+	"string_view_lite.hpp"
+	"variant_lite.hpp"
+	<utility>
+
+1665847294 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\table_internal.hpp
+	<algorithm>
+	<iostream>
+	<string>
+	"column.hpp"
+	"font_style.hpp"
+	"printer.hpp"
+	"row.hpp"
+	"termcolor.hpp"
+	<vector>
+
+1665847757 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\column.hpp
+	<algorithm>
+	<functional>
+	<iostream>
+	<memory>
+	<optional>
+	"optional_lite.hpp"
+	<string>
+	"cell.hpp"
+	"column_format.hpp"
+	<vector>
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\optional_lite.hpp
+	<utility>
+	<cstddef>
+	<optional>
+	<cassert>
+	<utility>
+	<stdexcept>
+	<functional>
+	<initializer_list>
+	<type_traits>
+	<tr1/type_traits>
+
+1665847736 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\cell.hpp
+	<iostream>
+	<memory>
+	<string>
+	"format.hpp"
+	"utf8.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665847693 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\format.hpp
+	<algorithm>
+	<cctype>
+	<cstddef>
+	<sstream>
+	<string>
+	"color.hpp"
+	"font_align.hpp"
+	"font_style.hpp"
+	"utf8.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665847645 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\color.hpp
+	"termcolor.hpp"
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<cstdio>
+	<iostream>
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\font_align.hpp
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\font_style.hpp
+
+1665847711 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\utf8.hpp
+	<algorithm>
+	<cstdint>
+	<string>
+	<clocale>
+	<locale>
+	<cstdlib>
+	"termcolor.hpp"
+	<wchar.h>
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\column_format.hpp
+
+1665847784 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\printer.hpp
+	"color.hpp"
+	"font_style.hpp"
+	<utility>
+	<vector>
+
+1665847840 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\row.hpp
+	<iostream>
+	<memory>
+	<string>
+	"cell.hpp"
+	<optional>
+	"optional_lite.hpp"
+	<vector>
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\string_view_lite.hpp
+	<nonstd/string_view.tweak.hpp>
+	<cstddef>
+	<string_view>
+	<algorithm>
+	<cassert>
+	<iterator>
+	<limits>
+	<string>
+	<ostream>
+	<stdexcept>
+	<type_traits>
+	<functional>
+
+1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\variant_lite.hpp
+	<utility>
+	<cstddef>
+	<functional>
+	<variant>
+	<cstddef>
+	<limits>
+	<new>
+	<utility>
+	<cassert>
+	<stdexcept>
+	<functional>
+	<initializer_list>
+	<type_traits>
+	<tr1/type_traits>
+
+1668435775 i:\workplace\mehedi hasan\software_development_1\pos\header\mainmenu.h
+	<iostream>
+	<stdlib.h>
+	"../tabulate/table.hpp"
+
+1668430965 i:\workplace\mehedi hasan\software_development_1\pos\header\product.h
+
