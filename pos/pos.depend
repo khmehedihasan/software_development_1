@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1668435648 source:i:\workplace\mehedi hasan\c\pos\main.cpp
+1668469677 source:i:\workplace\mehedi hasan\c\pos\main.cpp
 	<iostream>
 	<conio.h>
 	<stdlib.h>
 	"tabulate/table.hpp"
-	"header/mainMenu.h"
+	"header/memu/mainMenu.h"
 	"header/product.h"
 
 1668430125 i:\workplace\mehedi hasan\c\pos\tabulate\table.hpp
@@ -152,12 +152,17 @@
 	<stdlib.h>
 	"../tabulate/table.hpp"
 
-1668435648 source:i:\workplace\mehedi hasan\software_development_1\pos\main.cpp
+1668472098 i:\workplace\mehedi hasan\c\pos\header\memu\mainmenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+
+1668535325 source:i:\workplace\mehedi hasan\software_development_1\pos\main.cpp
 	<iostream>
 	<conio.h>
 	<stdlib.h>
 	"tabulate/table.hpp"
-	"header/mainMenu.h"
+	"header/memu/mainMenu.h"
 	"header/product.h"
 
 1668430125 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\table.hpp
@@ -227,7 +232,7 @@
 	"optional_lite.hpp"
 	<vector>
 
-1665847645 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\color.hpp
+1668532136 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\color.hpp
 	"termcolor.hpp"
 
 1665533556 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\termcolor.hpp
@@ -298,10 +303,28 @@
 	<type_traits>
 	<tr1/type_traits>
 
-1668435775 i:\workplace\mehedi hasan\software_development_1\pos\header\mainmenu.h
+1668536264 i:\workplace\mehedi hasan\software_development_1\pos\header\memu\mainmenu.h
 	<iostream>
 	<stdlib.h>
-	"../tabulate/table.hpp"
+	"../../tabulate/table.hpp"
+	"productMenu.h"
+	"customerMenu.h"
+	"supplierMenu.h"
 
 1668430965 i:\workplace\mehedi hasan\software_development_1\pos\header\product.h
+
+1668535227 i:\workplace\mehedi hasan\software_development_1\pos\header\memu\productmenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+
+1668535679 i:\workplace\mehedi hasan\software_development_1\pos\header\memu\customermenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+
+1668536129 i:\workplace\mehedi hasan\software_development_1\pos\header\memu\suppliermenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
 

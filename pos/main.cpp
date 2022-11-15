@@ -2,7 +2,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include "tabulate/table.hpp"
-#include "header/mainMenu.h"
+#include "header/menu/mainMenu.h"
 #include "header/product.h"
 using namespace tabulate;
 using namespace std;
@@ -10,12 +10,16 @@ using namespace std;
 
 
 int main() {
+    int value;
 
-    int option;
+    while(1){
+        value = mainMenu();
+        if(value == 0){
+            break;
+        }
+    }
 
-        option = mainMenu();
 
-        cout<<option;
 
     //Product p1;
 
