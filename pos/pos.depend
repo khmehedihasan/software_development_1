@@ -157,13 +157,12 @@
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 
-1668535325 source:i:\workplace\mehedi hasan\software_development_1\pos\main.cpp
+1668620089 source:i:\workplace\mehedi hasan\software_development_1\pos\main.cpp
 	<iostream>
-	<conio.h>
-	<stdlib.h>
+	<string>
 	"tabulate/table.hpp"
-	"header/memu/mainMenu.h"
-	"header/product.h"
+	"header/menu/mainMenu.h"
+	"header/store.h"
 
 1668430125 i:\workplace\mehedi hasan\software_development_1\pos\tabulate\table.hpp
 	"table_internal.hpp"
@@ -327,4 +326,43 @@
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
+
+1668536264 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\mainmenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+	"productMenu.h"
+	"customerMenu.h"
+	"supplierMenu.h"
+
+1668618134 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+	"../modules/product/addProduct.h"
+
+1668535679 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+
+1668536129 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
+	<iostream>
+	<stdlib.h>
+	"../../tabulate/table.hpp"
+
+1668620879 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
+	<iostream>
+	<stdlib.h>
+	<string>
+	<ctime>
+	"../../store.h"
+	"productClass.h"
+
+1668619426 i:\workplace\mehedi hasan\software_development_1\pos\header\store.h
+	<iostream>
+
+1668620936 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\productclass.h
+	<iostream>
+	<string>
 

@@ -31,7 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="header/memu/mainMenu.h" />
+		<Unit filename="header/menu/customerMenu.h" />
+		<Unit filename="header/menu/mainMenu.h" />
+		<Unit filename="header/menu/productMenu.h" />
+		<Unit filename="header/menu/supplierMenu.h" />
 		<Unit filename="header/product.h" />
 		<Unit filename="header/store.h" />
 		<Unit filename="main.cpp" />

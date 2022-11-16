@@ -1,15 +1,31 @@
 #include<iostream>
-#include <conio.h>
-#include <stdlib.h>
+//#include <ctime>
+#include <string>
+//#include <conio.h>
+//#include <stdlib.h>
 #include "tabulate/table.hpp"
 #include "header/menu/mainMenu.h"
-#include "header/product.h"
+#include "header/store.h"
 using namespace tabulate;
 using namespace std;
 
-
-
 int main() {
+
+
+   // time_t now = time(0); // get current dat/time with respect to system
+
+   // char* dt = ctime(&now); // convert it into string
+
+
+  //cout << dt << endl; // print local date and time
+        //string name;
+
+       //cout<<"Enter product name:";
+        //getline(cin, name);
+        //system ("CLS");
+        //cout<<name;
+
+
     int value;
 
     while(1){

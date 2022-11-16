@@ -1,8 +1,7 @@
-
 #include<iostream>
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
-
+#include "../modules/product/addProduct.h"
 using namespace tabulate;
 using namespace std;
 
@@ -154,7 +153,7 @@ using namespace std;
 
         switch(option){
             case 1:
-                cout<<"1 selected";
+                addProduct();
                 break;
             case 2:
                 cout<<"2 selected";
