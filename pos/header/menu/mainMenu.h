@@ -5,6 +5,7 @@
 #include "productMenu.h"
 #include "customerMenu.h"
 #include "supplierMenu.h"
+
 using namespace tabulate;
 using namespace std;
 
@@ -23,7 +24,7 @@ using namespace std;
         universal_constants.add_row({"","Stock 4"});
         universal_constants.add_row({"","Invoices 5"});
         universal_constants.add_row({"","Profit 6"});
-        universal_constants.add_row({"","EXIT 7"});
+        universal_constants.add_row({"","EXIT 0"});
 
         universal_constants.format()
             .font_style({FontStyle::bold})
@@ -159,7 +160,7 @@ using namespace std;
             case 1:
                 while(1){
                   value = porductMenu();
-                  if(value == 0){
+                  if(value == 10000000){
                     break;
                   }
                 }
@@ -167,7 +168,7 @@ using namespace std;
             case 2:
                 while(1){
                   value = customerMenu();
-                  if(value == 0){
+                  if(value == 10000000){
                     break;
                   }
                 }
@@ -175,7 +176,7 @@ using namespace std;
             case 3:
                 while(1){
                   value = supplierMenu();
-                  if(value == 0){
+                  if(value == 10000000){
                     break;
                   }
                 }
@@ -189,12 +190,14 @@ using namespace std;
             case 6:
                 cout<<"6 selected";
                  break;
-            case 7:
-                return 0;
+            case 0:
+                return 10000000;
                  break;
 
             default:
-                cout<<"selected";
+
+                errorMessage("Invalid Option!");
+
         }
 
 

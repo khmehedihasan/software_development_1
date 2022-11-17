@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
 #include "../modules/product/addProduct.h"
+#include "../message/errorMessage.h"
+
 using namespace tabulate;
 using namespace std;
 
@@ -20,7 +22,7 @@ using namespace std;
         universal_constants.add_row({"","Buy Product 4"});
         universal_constants.add_row({"","Sale Product 5"});
         universal_constants.add_row({"","View Product 6"});
-        universal_constants.add_row({"","BACK 7"});
+        universal_constants.add_row({"","BACK 0"});
 
         universal_constants.format()
             .font_style({FontStyle::bold})
@@ -170,12 +172,12 @@ using namespace std;
             case 6:
                 cout<<"6 selected";
                  break;
-            case 7:
-                  return 0;
+            case 0:
+                  return 10000000;
                 break;
 
             default:
-                cout<<"selected";
+                errorMessage("Invalid Option!");
         }
 
 

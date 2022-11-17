@@ -5,9 +5,14 @@
 //#include <stdlib.h>
 #include "tabulate/table.hpp"
 #include "header/menu/mainMenu.h"
-#include "header/store.h"
+//#include "header/message/errorMessage.h"
+//#include "header/message/successMessage.h"
 using namespace tabulate;
 using namespace std;
+
+void successMessage();
+void errorMessage();
+
 
 int main() {
 
@@ -30,7 +35,7 @@ int main() {
 
     while(1){
         value = mainMenu();
-        if(value == 0){
+        if(value == 10000000){
             break;
         }
     }

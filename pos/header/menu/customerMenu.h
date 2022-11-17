@@ -21,7 +21,7 @@ using namespace std;
         universal_constants.add_row({"","Delete Customer 3"});
         universal_constants.add_row({"","View Customer 4"});
         universal_constants.add_row({"","Customer Invoices 5"});
-        universal_constants.add_row({"","BACK 6"});
+        universal_constants.add_row({"","BACK 0"});
 
         universal_constants.format()
             .font_style({FontStyle::bold})
@@ -155,8 +155,8 @@ using namespace std;
             case 5:
                 cout<<"5 selected";
                  break;
-            case 6:
-                  return 0;
+            case 0:
+                  return 10000000;
                 break;
 
             default:
