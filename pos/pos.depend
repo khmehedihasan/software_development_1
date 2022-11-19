@@ -334,12 +334,13 @@
 	"customerMenu.h"
 	"supplierMenu.h"
 
-1668698664 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
+1668861492 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/product/addProduct.h"
 	"../message/errorMessage.h"
+	"../modules/product/viewProduct.h"
 
 1668698664 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
 	<iostream>
@@ -351,11 +352,10 @@
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 
-1668699960 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
+1668861447 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
 	<iostream>
 	<stdlib.h>
 	<string>
-	<ctime>
 	<ctime>
 	"../../store.h"
 	"productClass.h"
@@ -365,9 +365,10 @@
 1668619426 i:\workplace\mehedi hasan\software_development_1\pos\header\store.h
 	<iostream>
 
-1668620936 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\productclass.h
+1668860561 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\productclass.h
 	<iostream>
 	<string>
+	<stdlib.h>
 
 1668699726 i:\workplace\mehedi hasan\software_development_1\pos\header\message\successmessage.h
 	<iostream>
@@ -378,4 +379,8 @@
 	<iostream>
 	<string>
 	"../../tabulate/table.hpp"
+
+1668863379 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\viewproduct.h
+	<iostream>
+	"../../../tabulate/table.hpp"
 

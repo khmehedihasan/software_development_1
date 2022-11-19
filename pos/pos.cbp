@@ -35,10 +35,13 @@
 		<Unit filename="header/menu/mainMenu.h" />
 		<Unit filename="header/menu/productMenu.h" />
 		<Unit filename="header/menu/supplierMenu.h" />
+		<Unit filename="header/message/errorMessage.h" />
+		<Unit filename="header/message/successMessage.h" />
 		<Unit filename="header/modules/product/addProduct.h" />
 		<Unit filename="header/modules/product/productClass.h" />
 		<Unit filename="header/store.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="tabulate/table.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

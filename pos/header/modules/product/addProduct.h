@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string>
 #include <ctime>
-#include <ctime>
 #include "../../store.h"
 #include "productClass.h"
 #include "../../message/successMessage.h"
@@ -10,45 +9,59 @@
 
     int currentProductId = 1;
 
-using namespace std;
-using namespace tabulate;
+    using namespace std;
+    using namespace tabulate;
+
+
+        products *getNode(){
+            products* newNode;
+
+            newNode = (products*) malloc(sizeof(products));
+
+            string nam;
+            cout<<"Enter product name:";
+            getline(cin, nam);
+            getline(cin, nam);
+            newNode->name = nam;
+            system ("CLS");
+
+
+            cout<<"Enter product purchase price:";
+            int purchasePrice;
+            cin>>purchasePrice;
+            newNode->purchasePrice = purchasePrice;
+            system ("CLS");
+
+            cout<<"Enter product sale price:";
+            int salePrice;
+            cin>>salePrice;
+            newNode->salePrice  = salePrice;
+            system ("CLS");
+
+            time_t now = time(0);
+            char* dt = ctime(&now);
+            newNode->date = dt;
+            newNode->id = currentProductId;
+            newNode->inStock = 0;
+
+
+            newNode->next = NULL;
+
+            return newNode;
+
+        }
 
     void addProduct(){
 
-        int id = currentProductId;
-        string name;
-        int purchasePrice;
-        int salePrice;
 
-
-        cout<<"Enter product name:";
-        getline(cin, name);
-        cout<<name;
-        system ("CLS");
-
-        cout<<"Enter product name:";
-        getline(cin, name);
-        cout<<name;
-        system ("CLS");
-
-        cout<<"Enter product purchase price:";
-        cin>>purchasePrice;
-        system ("CLS");
-
-        cout<<"Enter product sale price:";
-        cin>>salePrice;
-        system ("CLS");
-
-        time_t now = time(0);
-        char* dt = ctime(&now);
-
-        Product p1(id, name, purchasePrice, salePrice, 0, dt);
+        products *newNode;
+        products *temp;
+        newNode = getNode();
         currentProductId++;
 
         Table movies;
         movies.add_row({"Id", "Name", "Purchase Price", "Sale Price","In Stock", "Date"});
-        movies.add_row({to_string(p1.id), p1.name, to_string(p1.purchasePrice), to_string(p1.salePrice),to_string(p1.inStock), p1.date});
-
+        movies.add_row({to_string(newNode->id), newNode->name, to_string(newNode->purchasePrice), to_string(newNode->salePrice),to_string(newNode->inStock), newNode->date});
 
         for (size_t i = 0; i < 6; ++i) {
             movies[0][i].format()
@@ -62,10 +75,24 @@ using namespace tabulate;
                 .font_style({FontStyle::bold});
         }
 
-        std::cout << movies << std::endl;
 
+        if(start == NULL){
 
-        successMessage("Product added successfully.");
+            start = newNode;
+            std::cout << movies << std::endl;
+            successMessage("Product added successfully.");
+
+        }else{
+
+            temp = start;
+            while(temp->next != NULL){
+                temp = temp->next;
+            }
+
+            temp->next = newNode;
+            std::cout << movies << std::endl;
+            successMessage("Product added successfully.");
+        }
 
 
     }

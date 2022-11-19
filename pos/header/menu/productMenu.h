@@ -3,6 +3,7 @@
 #include "../../tabulate/table.hpp"
 #include "../modules/product/addProduct.h"
 #include "../message/errorMessage.h"
+#include "../modules/product/viewProduct.h"
 
 using namespace tabulate;
 using namespace std;
@@ -170,10 +171,10 @@ using namespace std;
                 cout<<"5 selected";
                  break;
             case 6:
-                cout<<"6 selected";
-                 break;
+                viewProduct();
+                break;
             case 0:
-                  return 10000000;
+                return 10000000;
                 break;
 
             default:
