@@ -3,6 +3,8 @@
 #include<iostream>
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
+#include "../modules/customer/addCustomer.h"
+#include "../modules/customer/viewCustomer.h"
 
 using namespace tabulate;
 using namespace std;
@@ -141,7 +143,7 @@ using namespace std;
 
         switch(option){
             case 1:
-                cout<<"1 selected";
+                addCustomer();
                 break;
             case 2:
                 cout<<"2 selected";
@@ -150,8 +152,8 @@ using namespace std;
                 cout<<"3 selected";
                  break;
             case 4:
-                cout<<"4 selected";
-                 break;
+                viewCustomer();
+                break;
             case 5:
                 cout<<"5 selected";
                  break;

@@ -342,10 +342,12 @@
 	"../message/errorMessage.h"
 	"../modules/product/viewProduct.h"
 
-1668698664 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
+1668873356 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
+	"../modules/customer/addCustomer.h"
+	"../modules/customer/viewCustomer.h"
 
 1668698664 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
 	<iostream>
@@ -381,6 +383,24 @@
 	"../../tabulate/table.hpp"
 
 1668863379 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\viewproduct.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1668872937 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\addcustomer.h
+	<iostream>
+	<stdlib.h>
+	<string>
+	<ctime>
+	"../../store.h"
+	"customerClass.h"
+	"../../../tabulate/table.hpp"
+
+1668872285 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\customerclass.h
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1668873454 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\viewcustomer.h
 	<iostream>
 	"../../../tabulate/table.hpp"
 
