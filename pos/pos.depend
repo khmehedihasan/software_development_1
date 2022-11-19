@@ -349,10 +349,12 @@
 	"../modules/customer/addCustomer.h"
 	"../modules/customer/viewCustomer.h"
 
-1668698664 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
+1668878709 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
+	"../modules/supplier/addSupplier.h"
+	"../modules/supplier/viewSupplier.h"
 
 1668861447 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
 	<iostream>
@@ -401,6 +403,24 @@
 	<stdlib.h>
 
 1668873454 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\viewcustomer.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1668878173 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\addsupplier.h
+	<iostream>
+	<stdlib.h>
+	<string>
+	<ctime>
+	"../../store.h"
+	"supplierClass.h"
+	"../../../tabulate/table.hpp"
+
+1668878173 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\supplierclass.h
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1668878460 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\viewsupplier.h
 	<iostream>
 	"../../../tabulate/table.hpp"
 
