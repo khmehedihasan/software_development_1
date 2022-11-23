@@ -334,13 +334,14 @@
 	"customerMenu.h"
 	"supplierMenu.h"
 
-1668861492 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
+1669131469 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/product/addProduct.h"
 	"../message/errorMessage.h"
 	"../modules/product/viewProduct.h"
+	"../modules/product/buyProduct.h"
 
 1668873356 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
 	<iostream>
@@ -349,12 +350,11 @@
 	"../modules/customer/addCustomer.h"
 	"../modules/customer/viewCustomer.h"
 
-1668878709 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
+1669215416 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/supplier/addSupplier.h"
-	"../modules/supplier/viewSupplier.h"
 
 1668861447 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
 	<iostream>
@@ -369,7 +369,7 @@
 1668619426 i:\workplace\mehedi hasan\software_development_1\pos\header\store.h
 	<iostream>
 
-1668860561 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\productclass.h
+1669213704 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\productclass.h
 	<iostream>
 	<string>
 	<stdlib.h>
@@ -406,13 +406,12 @@
 	<iostream>
 	"../../../tabulate/table.hpp"
 
-1668878173 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\addsupplier.h
+1669215315 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\addsupplier.h
 	<iostream>
 	<stdlib.h>
 	<string>
 	<ctime>
 	"../../store.h"
-	"supplierClass.h"
 	"../../../tabulate/table.hpp"
 
 1668878173 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\supplierclass.h
@@ -423,4 +422,19 @@
 1668878460 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\viewsupplier.h
 	<iostream>
 	"../../../tabulate/table.hpp"
+
+1669217352 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\buyproduct.h
+	<iostream>
+	<stdlib.h>
+	"findProduct.h"
+	"../supplier/findSupplier.h"
+	"../supplier/viewSupplier.h"
+	"../../../tabulate/table.hpp"
+
+1669213858 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\findproduct.h
+	<iostream>
+
+1669215203 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\findsupplier.h
+	<iostream>
+	"supplierClass.h"
 

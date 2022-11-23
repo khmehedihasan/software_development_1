@@ -4,7 +4,6 @@
 #include <string>
 #include <ctime>
 #include "../../store.h"
-#include "supplierClass.h"
 #include "../../../tabulate/table.hpp"
 
     int currentSupplierId = 1;

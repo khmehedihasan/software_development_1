@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
 #include "../modules/supplier/addSupplier.h"
-#include "../modules/supplier/viewSupplier.h"
 using namespace tabulate;
 using namespace std;
 
