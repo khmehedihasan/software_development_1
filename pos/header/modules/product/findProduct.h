@@ -3,13 +3,13 @@
 using namespace std;
 
     products* findProduct(int id){
-        products *data = start;
+        products *dataFP = start;
 
-        while(data != NULL){
-            if(data->id == id){
-                return(data);
+        while(dataFP != NULL){
+            if(dataFP->id == id){
+                return(dataFP);
             }
-            data = data->next;
+            dataFP = dataFP->next;
         }
-
+        return(NULL);
     }

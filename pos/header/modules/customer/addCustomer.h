@@ -3,7 +3,7 @@
 #include <string>
 #include <ctime>
 #include "../../store.h"
-#include "customerClass.h"
+//#include "customerClass.h"
 #include "../../../tabulate/table.hpp"
 
     int currentCustomerId = 1;
@@ -80,7 +80,7 @@
         }
 
 
-        if(start == NULL){
+        if(startC == NULL){
 
             startC = newNode;
             std::cout << movies << std::endl;

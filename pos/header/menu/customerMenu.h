@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
 #include "../modules/customer/addCustomer.h"
-#include "../modules/customer/viewCustomer.h"
+//#include "../modules/customer/viewCustomer.h"
 
 using namespace tabulate;
 using namespace std;

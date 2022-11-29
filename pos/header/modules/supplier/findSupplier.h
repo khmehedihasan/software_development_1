@@ -3,13 +3,13 @@
 using namespace std;
 
     suppliers *findSupplier(int id){
-        suppliers *data = startS;
+        suppliers *dataFS = startS;
 
-        while(data != NULL){
-            if(data->id == id){
-                return(data);
+        while(dataFS != NULL){
+            if(dataFS->id == id){
+                return(dataFS);
             }
-            data = data->next;
+            dataFS = dataFS->next;
         }
-
+        return(NULL);
     }

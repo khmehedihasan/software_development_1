@@ -9,11 +9,11 @@ using namespace std;
 
     struct Product{
         int id;
-        string name;
         int purchasePrice;
         int salePrice;
         int inStock;
         string date;
+        string name;
         struct Product *next;
     };
 

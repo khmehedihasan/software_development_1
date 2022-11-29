@@ -5,7 +5,7 @@ using namespace tabulate;
 
     void viewCustomer(){
 
-        customers *data = startC;
+        customers *dataC = startC;
 
         Table movies;
         movies.add_row({"Id", "Name", "Email", "Phone","Address", "Date"});
@@ -20,11 +20,11 @@ using namespace tabulate;
 
         int n = 0;
         string total ;
-        while(data != NULL){
+        while(dataC != NULL){
             n++;
-            movies.add_row({to_string(data->id), data->name, data->email, data->phone, data->address, data->date});
+            movies.add_row({to_string(dataC->id), dataC->name, dataC->email, dataC->phone, dataC->address, dataC->date});
 
-            data = data->next;
+            dataC = dataC->next;
         }
 
         std::cout << movies << std::endl;

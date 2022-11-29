@@ -7,11 +7,11 @@ using namespace std;
 
     struct Customer{
         int id;
-        string name;
         string email;
         string phone;
         string address;
         string date;
+        string name;
         struct Customer *next;
     };
 

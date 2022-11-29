@@ -18,13 +18,12 @@
 
             newNode = (products*) malloc(sizeof(products));
 
-            string nam;
+            string name;
             cout<<"Enter product name:";
-            getline(cin, nam);
-            getline(cin, nam);
-            newNode->name = nam;
+            getline(cin, name);
+            getline(cin, name);
+            newNode->name = name;
             system ("CLS");
-
 
             cout<<"Enter product purchase price:";
             int purchasePrice;

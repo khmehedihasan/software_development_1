@@ -80,7 +80,7 @@
         }
 
 
-        if(start == NULL){
+        if(startS == NULL){
 
             startS = newNode;
             std::cout << movies << std::endl;

@@ -5,6 +5,7 @@
 #include "productMenu.h"
 #include "customerMenu.h"
 #include "supplierMenu.h"
+#include "../modules/product/viewSale.h"
 
 using namespace tabulate;
 using namespace std;
@@ -185,8 +186,8 @@ using namespace std;
                 cout<<"4 selected";
                  break;
             case 5:
-                cout<<"5 selected";
-                 break;
+                viewSale();
+                break;
             case 6:
                 cout<<"6 selected";
                  break;
