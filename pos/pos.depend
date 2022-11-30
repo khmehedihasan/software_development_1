@@ -335,7 +335,7 @@
 	"supplierMenu.h"
 	"../modules/product/viewSale.h"
 
-1669734264 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
+1669818353 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
@@ -344,18 +344,22 @@
 	"../modules/product/viewProduct.h"
 	"../modules/product/buyProduct.h"
 	"../modules/product/saleProduct.h"
+	"../modules/product/editProduct.h"
 
-1669729528 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
+1669820674 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/customer/addCustomer.h"
+	"../modules/customer/editCustomer.h"
 
-1669215416 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
+1669822382 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/supplier/addSupplier.h"
+	"../modules/supplier/EditSupplier.h"
+	"../modules/supplier/deleteSupplier.h"
 
 1669655529 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\addproduct.h
 	<iostream>
@@ -450,6 +454,22 @@
 	"customerClass.h"
 
 1669741939 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\viewsale.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669819058 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\editproduct.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669820308 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\editsupplier.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669820706 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\editcustomer.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669825823 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\deletesupplier.h
 	<iostream>
 	"../../../tabulate/table.hpp"
 

@@ -45,18 +45,12 @@
                         }
                     }
                     dataFSDL = dataFSDL->next;
+
                 }
 
-            }
-        /*
-            while(dataFSDL != NULL){
-                if(dataFSDL->id == id){
-                    return(dataFSDL);
-                }
-                dataFSDL = dataFSDL->next;
+
             }
 
-            */
         }
 
     }

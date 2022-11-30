@@ -3,6 +3,9 @@
 #include <stdlib.h>
 #include "../../tabulate/table.hpp"
 #include "../modules/supplier/addSupplier.h"
+#include "../modules/supplier/EditSupplier.h"
+#include "../modules/supplier/deleteSupplier.h"
+
 using namespace tabulate;
 using namespace std;
 
@@ -143,11 +146,11 @@ using namespace std;
                 addSupplier();
                 break;
             case 2:
-                cout<<"2 selected";
-                 break;
+                editSupplier();
+                break;
             case 3:
-                cout<<"3 selected";
-                 break;
+                deleteSupplier();
+                break;
             case 4:
                 viewSupplier();
                 break;

@@ -6,6 +6,7 @@
 #include "../modules/product/viewProduct.h"
 #include "../modules/product/buyProduct.h"
 #include "../modules/product/saleProduct.h"
+#include "../modules/product/editProduct.h"
 
 using namespace tabulate;
 using namespace std;
@@ -161,8 +162,8 @@ using namespace std;
                 addProduct();
                 break;
             case 2:
-                cout<<"2 selected";
-                 break;
+                editProduct();
+                break;
             case 3:
                 cout<<"3 selected";
                  break;
