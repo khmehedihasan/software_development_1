@@ -335,7 +335,7 @@
 	"supplierMenu.h"
 	"../modules/product/viewSale.h"
 
-1669818353 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
+1669911578 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\productmenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
@@ -345,13 +345,15 @@
 	"../modules/product/buyProduct.h"
 	"../modules/product/saleProduct.h"
 	"../modules/product/editProduct.h"
+	"../modules/product/deleteProduct.h"
 
-1669820674 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
+1669905951 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\customermenu.h
 	<iostream>
 	<stdlib.h>
 	"../../tabulate/table.hpp"
 	"../modules/customer/addCustomer.h"
 	"../modules/customer/editCustomer.h"
+	"../modules/customer/deleteCustomer.h"
 
 1669822382 i:\workplace\mehedi hasan\software_development_1\pos\header\menu\suppliermenu.h
 	<iostream>
@@ -470,6 +472,14 @@
 	"../../../tabulate/table.hpp"
 
 1669825823 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\supplier\deletesupplier.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669905840 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\customer\deletecustomer.h
+	<iostream>
+	"../../../tabulate/table.hpp"
+
+1669914281 i:\workplace\mehedi hasan\software_development_1\pos\header\modules\product\deleteproduct.h
 	<iostream>
 	"../../../tabulate/table.hpp"
 

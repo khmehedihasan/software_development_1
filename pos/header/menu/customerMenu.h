@@ -5,6 +5,7 @@
 #include "../../tabulate/table.hpp"
 #include "../modules/customer/addCustomer.h"
 #include "../modules/customer/editCustomer.h"
+#include "../modules/customer/deleteCustomer.h"
 
 using namespace tabulate;
 using namespace std;
@@ -149,8 +150,8 @@ using namespace std;
                 editCustomer();
                 break;
             case 3:
-                cout<<"3 selected";
-                 break;
+                deleteCustomer();
+                break;
             case 4:
                 viewCustomer();
                 break;
