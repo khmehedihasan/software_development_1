@@ -1,31 +1,30 @@
 
+
 #include<iostream>
-#include<stdlib.h>
+#include <stdlib.h>
 #include "../../tabulate/table.hpp"
-#include "productMenu.h"
-#include "customerMenu.h"
-#include "supplierMenu.h"
-#include "../modules/product/viewSale.h"
+#include "../modules/customer/addCustomer.h"
+#include "../modules/customer/editCustomer.h"
+#include "../modules/customer/deleteCustomer.h"
 
 using namespace tabulate;
 using namespace std;
 
 
 
-    int mainMenu(){
+    int customerMenu(){
 
         int option;
 
         Table universal_constants;
 
         universal_constants.add_row({"","Please select an option:"});
-        universal_constants.add_row({"","Product 1"});
-        universal_constants.add_row({"","Customer 2"});
-        universal_constants.add_row({"","Supplier 3"});
-        universal_constants.add_row({"","Stock 4"});
-        universal_constants.add_row({"","Invoices 5"});
-        universal_constants.add_row({"","Profit 6"});
-        universal_constants.add_row({"","EXIT 0"});
+        universal_constants.add_row({"","Add Customer 1"});
+        universal_constants.add_row({"","Edit Customer 2"});
+        universal_constants.add_row({"","Delete Customer 3"});
+        universal_constants.add_row({"","View Customer 4"});
+        universal_constants.add_row({"","Customer Invoices 5"});
+        universal_constants.add_row({"","BACK 0"});
 
         universal_constants.format()
             .font_style({FontStyle::bold})
@@ -132,19 +131,6 @@ using namespace std;
             .width(60)
             .font_background_color(Color::cyan);
 
-        universal_constants[7][0].format()
-            .padding_top(1)
-            .padding_bottom(1)
-            .font_align(FontAlign::center)
-            .font_style({FontStyle::bold})
-            .width(30);
-        universal_constants[7][1].format()
-            .padding_top(1)
-            .padding_bottom(1)
-            .font_align(FontAlign::center)
-            .font_style({FontStyle::bold})
-            .width(60)
-            .font_background_color(Color::red);
 
 
 
@@ -157,51 +143,31 @@ using namespace std;
         system ("CLS");
 
         switch(option){
-            int value;
             case 1:
-                while(1){
-                  value = porductMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
+                addCustomer();
                 break;
             case 2:
-                while(1){
-                  value = customerMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
-                 break;
-            case 3:
-                while(1){
-                  value = supplierMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
-                 break;
-            case 4:
-                cout<<"4 selected";
-                 break;
-            case 5:
-                viewSale();
+                editCustomer();
                 break;
-            case 6:
-                cout<<"6 selected";
+            case 3:
+                deleteCustomer();
+                break;
+            case 4:
+                viewCustomer();
+                break;
+            case 5:
+                cout<<"5 selected";
                  break;
             case 0:
-                return 10000000;
-                 break;
+                  return 10000000;
+                break;
 
             default:
-
-                errorMessage("Invalid Option!");
-
+                cout<<"selected";
         }
 
 
         return option;
     }
+
 

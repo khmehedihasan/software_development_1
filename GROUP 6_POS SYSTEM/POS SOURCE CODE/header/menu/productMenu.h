@@ -1,31 +1,33 @@
-
 #include<iostream>
-#include<stdlib.h>
+#include <stdlib.h>
 #include "../../tabulate/table.hpp"
-#include "productMenu.h"
-#include "customerMenu.h"
-#include "supplierMenu.h"
-#include "../modules/product/viewSale.h"
+#include "../modules/product/addProduct.h"
+#include "../message/errorMessage.h"
+#include "../modules/product/viewProduct.h"
+#include "../modules/product/buyProduct.h"
+#include "../modules/product/saleProduct.h"
+#include "../modules/product/editProduct.h"
+#include "../modules/product/deleteProduct.h"
 
 using namespace tabulate;
 using namespace std;
 
 
 
-    int mainMenu(){
+    int porductMenu(){
 
         int option;
 
         Table universal_constants;
 
         universal_constants.add_row({"","Please select an option:"});
-        universal_constants.add_row({"","Product 1"});
-        universal_constants.add_row({"","Customer 2"});
-        universal_constants.add_row({"","Supplier 3"});
-        universal_constants.add_row({"","Stock 4"});
-        universal_constants.add_row({"","Invoices 5"});
-        universal_constants.add_row({"","Profit 6"});
-        universal_constants.add_row({"","EXIT 0"});
+        universal_constants.add_row({"","Add Product 1"});
+        universal_constants.add_row({"","Edit Product 2"});
+        universal_constants.add_row({"","Delete Product 3"});
+        universal_constants.add_row({"","Buy Product 4"});
+        universal_constants.add_row({"","Sale Product 5"});
+        universal_constants.add_row({"","View Product 6"});
+        universal_constants.add_row({"","BACK 0"});
 
         universal_constants.format()
             .font_style({FontStyle::bold})
@@ -157,51 +159,34 @@ using namespace std;
         system ("CLS");
 
         switch(option){
-            int value;
             case 1:
-                while(1){
-                  value = porductMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
+                addProduct();
                 break;
             case 2:
-                while(1){
-                  value = customerMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
-                 break;
+                editProduct();
+                break;
             case 3:
-                while(1){
-                  value = supplierMenu();
-                  if(value == 10000000){
-                    break;
-                  }
-                }
-                 break;
+                deleteProduct();
+                break;
             case 4:
-                cout<<"4 selected";
-                 break;
+                buyProduct();
+                break;
             case 5:
-                viewSale();
+                saleProduct();
                 break;
             case 6:
-                cout<<"6 selected";
-                 break;
+                viewProduct();
+                break;
             case 0:
                 return 10000000;
-                 break;
+                break;
 
             default:
-
                 errorMessage("Invalid Option!");
-
         }
 
 
         return option;
     }
+
 

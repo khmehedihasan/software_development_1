@@ -5,49 +5,49 @@
     using namespace std;
     using namespace tabulate;
 
-    void editCustomer(){
-        int customerId;
+    void editSupplier(){
+        int supplierId;
 
-        viewCustomer();
+        viewSupplier();
 
-        cout<<"Enter a customer id : ";
-        cin>>customerId;
+        cout<<"Enter a supplier id : ";
+        cin>>supplierId;
         system ("CLS");
 
-        customers* EC = findCustomer(customerId);
+        suppliers* ES = findSupplier(supplierId);
 
-            cout<<"Current customer name : ->[ " <<EC->name <<" ]" <<endl;
+            cout<<"Current supplier name : ->[ " <<ES->name <<" ]" <<endl;
             string nam;
-            cout<<"Enter customer name:";
+            cout<<"Enter supplier name:";
             getline(cin, nam);
             getline(cin, nam);
-            EC->name = nam;
+            ES->name = nam;
             system ("CLS");
 
-            cout<<"Current customer email : ->[ " <<EC->email <<" ]" <<endl;
-            cout<<"Enter customer email: ";
+            cout<<"Current supplier email : ->[ " <<ES->email <<" ]" <<endl;
+            cout<<"Enter supplier email:";
             string email;
             getline(cin, email);
-            EC->email = email;
+            ES->email = email;
             system ("CLS");
 
-            cout<<"Current customer phone : ->[ " <<EC->phone <<" ]" <<endl;
-            cout<<"Enter customer phone: ";
+            cout<<"Current supplier phone : ->[ " <<ES->phone <<" ]" <<endl;
+            cout<<"Enter supplier phone:";
             string phone;
             getline(cin, phone);
-            EC->phone = phone;
+            ES->phone = phone;
             system ("CLS");
 
-            cout<<"Current customer address : ->[ " <<EC->address <<" ]" <<endl;
-            cout<<"Enter customer address: ";
+            cout<<"Current supplier address : ->[ " <<ES->address <<" ]" <<endl;
+            cout<<"Enter supplier address:";
             string address;
             getline(cin, address);
-            EC->address = address;
+            ES->address = address;
             system ("CLS");
 
         Table movies;
         movies.add_row({"Id", "Name", "Email", "phone", "Address", "Date"});
-        movies.add_row({to_string(EC->id), EC->name, EC->email, EC->phone, EC->address, EC->date});
+        movies.add_row({to_string(ES->id), ES->name, ES->email, ES->phone, ES->address, ES->date});
 
         for (size_t i = 0; i < 6; ++i) {
             movies[0][i].format()
@@ -62,6 +62,6 @@
         }
 
         std::cout << movies << std::endl;
-        successMessage("Customer update successfully.");
+        successMessage("Supplier update successfully.");
 
     }
